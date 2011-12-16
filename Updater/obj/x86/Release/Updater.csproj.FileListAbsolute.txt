@@ -1,0 +1,9 @@
+C:\Users\User\Documents\Visual Studio 2010\Projects\ArdupilotMegaPlanner\bin\Release\Updater.exe.config
+C:\Users\User\Documents\Visual Studio 2010\Projects\ArdupilotMegaPlanner\bin\Release\Updater.exe
+C:\Users\User\Documents\Visual Studio 2010\Projects\ArdupilotMegaPlanner\bin\Release\Updater.pdb
+C:\Users\User\Documents\Visual Studio 2010\Projects\ArdupilotMegaPlanner\Updater\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2010\Projects\ArdupilotMegaPlanner\Updater\obj\x86\Release\Updater.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2010\Projects\ArdupilotMegaPlanner\Updater\obj\x86\Release\ResGen.read.1.tlog
+C:\Users\User\Documents\Visual Studio 2010\Projects\ArdupilotMegaPlanner\Updater\obj\x86\Release\ResGen.write.1.tlog
+C:\Users\User\Documents\Visual Studio 2010\Projects\ArdupilotMegaPlanner\Updater\obj\x86\Release\Updater.exe
+C:\Users\User\Documents\Visual Studio 2010\Projects\ArdupilotMegaPlanner\Updater\obj\x86\Release\Updater.pdb

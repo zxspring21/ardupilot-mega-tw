@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Config>
+  <comport>COM3</comport>
+  <baudrate>115200</baudrate>
+  <APMFirmware>ArduPlane</APMFirmware>
+  <TXT_DefaultAlt>100</TXT_DefaultAlt>
+  <CMB_rateattitude>10</CMB_rateattitude>
+  <CMB_rateposition>3</CMB_rateposition>
+  <Tuning_Graph_Selected>roll|pitch|nav_roll|nav_pitch|</Tuning_Graph_Selected>
+  <TXT_loiterrad>45</TXT_loiterrad>
+  <FlightSplitter>417</FlightSplitter>
+  <TXT_homealt />
+  <CMB_ratestatus>1</CMB_ratestatus>
+  <TXT_homelat />
+  <TXT_homelng />
+  <CHK_altmode>False</CHK_altmode>
+  <TXT_WPRad>30</TXT_WPRad>
+  <MainWidth>1024</MainWidth>
+  <NUM_tracklength>200</NUM_tracklength>
+  <language>zh-TW</language>
+  <MainLocY>97</MainLocY>
+  <MainHeight>534</MainHeight>
+  <CMB_raterc>3</CMB_raterc>
+  <MainMaximised>Normal</MainMaximised>
+  <MainLocX>171</MainLocX>
+</Config>

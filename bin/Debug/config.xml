@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Config>
+  <comport>COM3</comport>
+  <baudrate>115200</baudrate>
+  <APMFirmware>ArduPlane</APMFirmware>
+  <TXT_loiterrad>45</TXT_loiterrad>
+  <TXT_WPRad>30</TXT_WPRad>
+  <speechwaypoint>Heading to Waypoint {wpn}</speechwaypoint>
+  <MapType>GoogleMapChina</MapType>
+  <TXT_homealt>1</TXT_homealt>
+  <MainHeight>744</MainHeight>
+  <REV_pitch>False</REV_pitch>
+  <CMB_raterc>3</CMB_raterc>
+  <MainLocY>-8</MainLocY>
+  <speechbattery>WARNING, Battery at {batv} Volt</speechbattery>
+  <language>zh-TW</language>
+  <speechwaypointenabled>True</speechwaypointenabled>
+  <speechaltenabled>True</speechaltenabled>
+  <CMB_rateattitude>10</CMB_rateattitude>
+  <NUM_tracklength>200</NUM_tracklength>
+  <speechenable>True</speechenable>
+  <MAVthrottlegain>10000</MAVthrottlegain>
+  <CHK_altmode>False</CHK_altmode>
+  <TXT_homelng>121.329327821732</TXT_homelng>
+  <simIP>127.0.0.1</simIP>
+  <MAVruddergain>10000</MAVruddergain>
+  <GPSrate>250</GPSrate>
+  <speechaltheight>2</speechaltheight>
+  <TXT_DefaultAlt>100</TXT_DefaultAlt>
+  <CMB_ratestatus>1</CMB_ratestatus>
+  <MainMaximised>Maximized</MainMaximised>
+  <FlightSplitter>592</FlightSplitter>
+  <MAVpitchgain>10000</MAVpitchgain>
+  <recvPort>49005</recvPort>
+  <TXT_homelat>24.9644964033013</TXT_homelat>
+  <speechalt>WARNING, low altitude {alt}</speechalt>
+  <REV_rudder>False</REV_rudder>
+  <Xplanes>True</Xplanes>
+  <REV_roll>False</REV_roll>
+  <simPort>49000</simPort>
+  <speechbatteryvolt>9.6</speechbatteryvolt>
+  <speedunits>kph</speedunits>
+  <MainLocX>-8</MainLocX>
+  <MainWidth>1382</MainWidth>
+  <speechbatteryenabled>True</speechbatteryenabled>
+  <MAVrollgain>10000</MAVrollgain>
+  <CHKdisplayall>False</CHKdisplayall>
+  <Tuning_Graph_Selected>roll|pitch|nav_roll|nav_pitch|</Tuning_Graph_Selected>
+  <CMB_rateposition>3</CMB_rateposition>
+</Config>
