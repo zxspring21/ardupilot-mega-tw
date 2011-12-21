@@ -5,14 +5,10 @@
   <APMFirmware>ArduPlane</APMFirmware>
   <FlightSplitter>417</FlightSplitter>
   <Tuning_Graph_Selected>roll|pitch|nav_roll|nav_pitch|</Tuning_Graph_Selected>
-  <CMB_rateattitude>10</CMB_rateattitude>
   <NUM_tracklength>200</NUM_tracklength>
   <MainLocY>97</MainLocY>
-  <CMB_rateposition>3</CMB_rateposition>
   <MainMaximised>Normal</MainMaximised>
-  <CMB_ratestatus>1</CMB_ratestatus>
   <MainHeight>534</MainHeight>
-  <CMB_raterc>3</CMB_raterc>
   <MainLocX>171</MainLocX>
   <MainWidth>1024</MainWidth>
 </Config>
