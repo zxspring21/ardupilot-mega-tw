@@ -120,18 +120,6 @@
   <data name="goHereToolStripMenuItem.Text" xml:space="preserve">
     <value>飛到這里</value>
   </data>
-  <data name="contextMenuStrip1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="contextMenuStrip2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="hud1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="SubMainLeft.Panel1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="BUT_joystick.Text" xml:space="preserve">
     <value>飛行摇桿</value>
   </data>
@@ -153,17 +141,11 @@
   <data name="BUT_quickauto.ToolTip" xml:space="preserve">
     <value>更改為自動模式</value>
   </data>
-  <data name="CMB_setwp.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="BUT_setwp.Text" xml:space="preserve">
     <value>設置航點</value>
   </data>
   <data name="BUT_setwp.ToolTip" xml:space="preserve">
     <value>更改當前目標航點</value>
-  </data>
-  <data name="CMB_modes.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="BUT_setmode.Text" xml:space="preserve">
     <value>設置模式</value>
@@ -176,9 +158,6 @@
   </data>
   <data name="BUT_clear_track.ToolTip" xml:space="preserve">
     <value>清空地圖上記錄的路徑</value>
-  </data>
-  <data name="CMB_action.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="BUT_Homealt.Text" xml:space="preserve">
     <value>設置起始高度</value>
@@ -196,7 +175,7 @@
     <value>重啟任務</value>
   </data>
   <data name="BUTrestartmission.ToolTip" xml:space="preserve">
-    <value>重新開始任務</value>
+    <value>重頭開始任務</value>
   </data>
   <data name="BUTactiondo.Text" xml:space="preserve">
     <value>執　　行</value>
@@ -206,9 +185,6 @@
   </data>
   <data name="tabActions.Text" xml:space="preserve">
     <value>動作</value>
-  </data>
-  <data name="tabActions.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Gvspeed.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -1206,9 +1182,6 @@
         an+FN5rNTSpY1divRTiUek6K2tXTNqq8zWHT/53G/1AVtv8fjhuF2iv2lz4AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="Gvspeed.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="Gheading.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAm4AAAJuCAYAAAAJqI4TAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAACH
@@ -2204,9 +2177,6 @@
         an+FN5rNTSpY1divRTiUek6K2tXTNqq8zWHT/53G/1AVtv8fjhuF2iv2lz4AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="Gheading.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="Galt.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAm4AAAJuCAYAAAAJqI4TAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAACH
@@ -3201,9 +3171,6 @@
         x+FDFldRo26v8KbwpvDGhcZK8AZg+69N9WgM1nx/v3RYQP6bt7dpSIFTeFN4U3grBW+vtNr0XRzgcqFL
         an+FN5rNTSpY1divRTiUek6K2tXTNqq8zWHT/53G/1AVtv8fjhuF2iv2lz4AAAAASUVORK5CYII=
 </value>
-  </data>
-  <data name="Galt.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="Gspeed.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4206,59 +4173,11 @@
   <data name="tabGauges.Text" xml:space="preserve">
     <value>儀表</value>
   </data>
-  <data name="tabGauges.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="tabStatus.Text" xml:space="preserve">
-    <value>狀態</value>
-  </data>
-  <data name="tabStatus.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lbl_logpercent.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="BUT_log2kml.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="tracklog.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="BUT_playlog.Text" xml:space="preserve">
     <value>播放/暂停</value>
   </data>
-  <data name="BUT_playlog.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="BUT_loadtelem.Text" xml:space="preserve">
     <value>加載記錄</value>
-  </data>
-  <data name="BUT_loadtelem.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="tabTLogs.Text" xml:space="preserve">
-    <value>遙測記錄</value>
-  </data>
-  <data name="tabTLogs.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="tabControl1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="SubMainLeft.Panel2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="SubMainLeft.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="MainH.Panel1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="zg1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="splitContainer1.Panel1.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="gMapControl1.streamjpg" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -4405,20 +4324,8 @@
         AAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="gMapControl1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="splitContainer1.Panel2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="splitContainer1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="TXT_lat.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 13</value>
-  </data>
-  <data name="TXT_lat.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="Zoomlevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>474, 7</value>
@@ -4432,26 +4339,17 @@
   <data name="label1.Text" xml:space="preserve">
     <value>縮放</value>
   </data>
-  <data name="label1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="TXT_long.Location" type="System.Drawing.Point, System.Drawing">
     <value>90, 10</value>
   </data>
   <data name="TXT_long.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 13</value>
   </data>
-  <data name="TXT_long.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="TXT_alt.Location" type="System.Drawing.Point, System.Drawing">
     <value>170, 10</value>
   </data>
   <data name="TXT_alt.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 13</value>
-  </data>
-  <data name="TXT_alt.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="CHK_autopan.Location" type="System.Drawing.Point, System.Drawing">
     <value>339, 9</value>
@@ -4471,22 +4369,31 @@
   <data name="CB_tuning.Text" xml:space="preserve">
     <value>舵機調整</value>
   </data>
-  <data name="panel1.ToolTip" xml:space="preserve">
-    <value />
+  <data name="BUT_script.Text" xml:space="preserve">
+    <value>脚本</value>
   </data>
-  <data name="tableMap.ToolTip" xml:space="preserve">
-    <value />
+  <data name="lbl_winddir.Text" xml:space="preserve">
+    <value>風向: 0</value>
   </data>
-  <data name="MainH.Panel2.ToolTip" xml:space="preserve">
-    <value />
+  <data name="lbl_winddir.ToolTip" xml:space="preserve">
+    <value>估計的風向</value>
   </data>
-  <data name="MainH.ToolTip" xml:space="preserve">
-    <value />
+  <data name="lbl_windvel.Text" xml:space="preserve">
+    <value>風速: 0</value>
   </data>
-  <data name="label6.ToolTip" xml:space="preserve">
-    <value />
+  <data name="lbl_windvel.ToolTip" xml:space="preserve">
+    <value>估計的風速</value>
   </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
+  <data name="recordHudToAVIToolStripMenuItem.Text" xml:space="preserve">
+    <value>錄製為AVI</value>
+  </data>
+  <data name="stopRecordToolStripMenuItem.Text" xml:space="preserve">
+    <value>停止錄製</value>
+  </data>
+  <data name="tabStatus.Text1" xml:space="preserve">
+    <value>狀態</value>
+  </data>
+  <data name="tabTLogs.Text1" xml:space="preserve">
+    <value>遥測記錄</value>
   </data>
 </root>

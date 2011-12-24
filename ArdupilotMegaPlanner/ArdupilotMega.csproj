@@ -614,7 +614,6 @@
     <None Include="Resources\Welcome_to_Michael_Oborne.rtf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Resources\Welcome_TW.rtf" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="apm2.ico" />

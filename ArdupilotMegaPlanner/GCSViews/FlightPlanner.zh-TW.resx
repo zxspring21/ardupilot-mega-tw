@@ -251,7 +251,7 @@
     <value />
   </data>
   <data name="BUT_read.Text" xml:space="preserve">
-    <value>續取航路</value>
+    <value>讀取航路</value>
   </data>
   <data name="BUT_read.ToolTip" xml:space="preserve">
     <value />
@@ -583,9 +583,6 @@
   <data name="gridToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 22</value>
   </data>
-  <data name="gridToolStripMenuItem.Text" xml:space="preserve">
-    <value>網格</value>
-  </data>
   <data name="clearMissionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 22</value>
   </data>
@@ -770,5 +767,32 @@
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="MAVCmd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MAVCmd.zh-Hans.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Alt.HeaderText" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="BUT_Camera.Text" xml:space="preserve">
+    <value>相機</value>
+  </data>
+  <data name="BUT_Camera.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BUT_loadkml.Text" xml:space="preserve">
+    <value>KML疊加</value>
+  </data>
+  <data name="BUT_loadkml.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BUT_zoomto.Text" xml:space="preserve">
+    <value>缩放至</value>
+  </data>
+  <data name="BUT_zoomto.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lat.HeaderText" xml:space="preserve">
+    <value>緯度</value>
+  </data>
+  <data name="Lon.HeaderText" xml:space="preserve">
+    <value>經度</value>
   </data>
 </root>
