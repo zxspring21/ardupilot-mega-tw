@@ -206,13 +206,16 @@ namespace ArdupilotMega
                 if (getparams == true)
                     getParamList();
             }
-            catch (Exception e) { 
-                try { 
-                    BaseStream.Close(); 
-                } catch { } 
-                MainV2.givecomport = false; 
-                frm.Close(); 
-                throw e; 
+            catch (Exception e)
+            {
+                try
+                {
+                    BaseStream.Close();
+                }
+                catch { }
+                MainV2.givecomport = false;
+                frm.Close();
+                throw e;
             }
 
             frm.Close();
@@ -608,9 +611,9 @@ namespace ArdupilotMega
 
             int retrys = 3;
             int nextid = 0;
-            int a = 0;
-            int z = 5;
-            while (a < z)
+            int param_count = 0;
+            int param_total = 5;
+            while (param_count < param_total)
             {
                 if (!(start.AddMilliseconds(5000) > DateTime.Now))
                 {
@@ -627,7 +630,7 @@ namespace ArdupilotMega
                 }
                 if (!(restart.AddMilliseconds(1000) > DateTime.Now))
                 {
-                    rereq.param_id = new byte[] {0x0,0x0};
+                    rereq.param_id = new byte[] { 0x0, 0x0 };
                     rereq.param_index = (short)nextid;
                     sendPacket(rereq);
                     restart = DateTime.Now;
@@ -652,26 +655,31 @@ namespace ArdupilotMega
 
                         par = (__mavlink_param_value_t)temp;
 
-                        z = (par.param_count);
+                        param_total = (par.param_count);
 
-                        if (nextid == (par.param_index))
+                        // for out of order udp packets
+                        if (BaseStream.GetType() != typeof(UdpSerial))
                         {
-                            nextid++;
-                        }
-                        else
-                        {
-                            if (retrys > 0)
+                            if (nextid == (par.param_index))
                             {
-                                generatePacket(MAVLINK_MSG_ID_PARAM_REQUEST_LIST, req);
-                                a = 0;
-                                nextid = 0;
-                                retrys--;
-                                continue;
+                                nextid++;
                             }
-                            missed.Add(nextid); // for later devel
-                            MainV2.givecomport = false;
-                            throw new Exception("Missed ID expecting " + nextid + " got " + (par.param_index) + "\nPlease try loading again");
-                        }
+                            else
+                            {
+
+                                if (retrys > 0)
+                                {
+                                    generatePacket(MAVLINK_MSG_ID_PARAM_REQUEST_LIST, req);
+                                    param_count = 0;
+                                    nextid = 0;
+                                    retrys--;
+                                    continue;
+                                }
+                                missed.Add(nextid); // for later devel
+                                MainV2.givecomport = false;
+                                throw new Exception("Missed ID expecting " + nextid + " got " + (par.param_index) + "\nPlease try loading again");
+                            }
+                        }                        
 
                         string st = System.Text.ASCIIEncoding.ASCII.GetString(par.param_id);
 
@@ -682,13 +690,13 @@ namespace ArdupilotMega
                             st = st.Substring(0, pos);
                         }
 
-                        Console.WriteLine(DateTime.Now.Millisecond + " got param " + (par.param_index) + " of " + (z - 1) + " name: " + st);
+                        Console.WriteLine(DateTime.Now.Millisecond + " got param " + (par.param_index) + " of " + (param_total - 1) + " name: " + st);
 
                         modifyParamForDisplay(true, st, ref par.param_value);
 
                         param[st] = (par.param_value);
 
-                        a++;
+                        param_count++;
                     }
                     else
                     {
@@ -740,7 +748,7 @@ namespace ArdupilotMega
             // reset all
             if (forget)
             {
-                    streams = new byte[streams.Length];
+                streams = new byte[streams.Length];
             }
 
             // no error on bad
@@ -1011,7 +1019,7 @@ namespace ArdupilotMega
 
         public void requestDatastream(byte id, byte hzrate)
         {
-                streams[id] = hzrate;
+            streams[id] = hzrate;
 
             double pps = 0;
 
@@ -2073,7 +2081,7 @@ namespace ArdupilotMega
 
             if (bpstime.Second != DateTime.Now.Second && !logreadmode)
             {
-//                Console.Write("bps {0} loss {1} left {2} mem {3}      \n", bps1, synclost, BaseStream.BytesToRead, System.GC.GetTotalMemory(false));
+                //                Console.Write("bps {0} loss {1} left {2} mem {3}      \n", bps1, synclost, BaseStream.BytesToRead, System.GC.GetTotalMemory(false));
                 bps2 = bps1; // prev sec
                 bps1 = 0; // current sec
                 bpstime = DateTime.Now;
@@ -2207,7 +2215,7 @@ namespace ArdupilotMega
         /// Used to extract mission from log file
         /// </summary>
         /// <param name="temp">packet</param>
-        void getWPsfromstream(ref byte[] temp )
+        void getWPsfromstream(ref byte[] temp)
         {
 #if MAVLINK10
                     if (temp[5] == MAVLINK_MSG_ID_MISSION_COUNT)
@@ -2314,7 +2322,7 @@ namespace ArdupilotMega
             }
         }
 
-        public bool setFencePoint(byte index, PointLatLngAlt plla,byte fencepointcount)
+        public bool setFencePoint(byte index, PointLatLngAlt plla, byte fencepointcount)
         {
             __mavlink_fence_point_t fp = new __mavlink_fence_point_t();
 

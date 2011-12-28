@@ -167,7 +167,7 @@ namespace ArdupilotMega.GCSViews
 
             // setup language selection
             CultureInfo ci = null;
-            foreach (string name in new string[] { "en-US", "zh-Hans", "zh-TW", "ru-RU" })
+            foreach (string name in new string[] { "en-US", "zh-Hans", "ru-RU" })
             {
                 ci = MainV2.getcultureinfo(name);
                 if (ci != null)
@@ -610,6 +610,20 @@ namespace ArdupilotMega.GCSViews
                         if (name == "WP_TOTAL")
                             continue;
                         if (name == "CMD_TOTAL")
+                            continue;
+                        if (name == "FENCE_TOTAL")
+                            continue;
+                        if (name == "SYS_NUM_RESETS")
+                            continue;
+                        if (name == "ARSPD_OFFSET")
+                            continue;
+                        if (name == "GND_ABS_PRESS")
+                            continue;
+                        if (name == "GND_TEMP")
+                            continue;
+                        if (name == "CMD_INDEX")
+                            continue;
+                        if (name == "LOG_LASTFILE")
                             continue;
                         if (row.Cells[0].Value.ToString() == name)
                         {
