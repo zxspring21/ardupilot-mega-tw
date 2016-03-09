@@ -1,0 +1,30 @@
+﻿== DIY Drones 開發團隊 ==
+
+隨著時間的流逝有愈來愈多的人加入 DIY Drones 的專案團隊，有的人負責主要專案有人也是盡一己之力。以下是目前主要的團隊領導人和活躍的核心貢獻者列表。
+
+(按字母順序排列)
+
+  * [Chris Anderson](http://diydrones.com/profile/zlitezlite)
+  * [Olivier Adler](http://diydrones.com/profiles/blogs/meet-the-developers-olivier-adler)
+  * [Ryan Beall](http://diydrones.com/profile/RyanBeall)
+  * [Sandro Benigno](http://diydrones.com/profiles/blogs/meet-the-developers-sandro-benigno)
+  * [John Arne Birkeland](http://diydrones.com/profiles/blogs/meet-the-developers-john-arne-birkeland)
+  * [James Goppert](http://diydrones.com/profile/JamesGoppert)
+  * [Pat Hickey](http://diydrones.com/profile/pchickey?xg_source=profiles_memberList)
+  * [Jani Hirvinen](http://diydrones.com/profiles/blogs/meet-the-developers-jani-hirvinen)
+  * [Hein Hollander](http://diydrones.com/profile/Hein?xg_source=profiles_memberList)
+  * [Jose Julio](http://diydrones.com/profiles/blogs/meet-the-developers-jose-julio)
+  * [Sam Kelly](http://diydrones.com/xn/detail/u_0krf9lynhlstj?xg_source=profiles_memberList)
+  * [Max Levine](http://diydrones.com/profiles/blogs/meet-the-developers-max-levine)
+  * [Randy Mackay](http://diydrones.com/profiles/blogs/meet-the-developers-randy-mackay)
+  * [Paul Mather](http://diydrones.com/profiles/blogs/meet-the-developers-paul-mather-aka-happy-killmore)
+  * [Jordi Munoz](http://diydrones.com/profile/jordii)
+  * [Roberto Navoni](http://diydrones.com/profile/RobertoNavoni?xg_source=profiles_memberList)
+  * [Samantha Nelson](http://diydrones.com/xn/detail/u_3q8zn4krjn41e?xg_source=profiles_memberList)
+  * [Michael Oborne](http://diydrones.com/profiles/blogs/meet-the-developers-michael-oborne)
+  * [Alan Sanchez](http://diydrones.com/xn/detail/u_00ohvqkvxcbrr?xg_source=profiles_memberList)
+  * [Jason Short](http://diydrones.com/profiles/blogs/meet-the-developers-jason-short)
+  * [Mike Smith](http://diydrones.com/profile/MichaelSmith703)
+  * [Jeff Taylor](http://diydrones.com/profile/JeffTaylor?xg_source=profiles_memberList)
+  * [Andrew Tridgell](http://diydrones.com/profiles/blogs/meet-the-developers-andrew-tridgell)
+  * [Doug Weibel](http://diydrones.com/profiles/blogs/meet-the-developers-doug-weibel)
